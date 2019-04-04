@@ -19,3 +19,6 @@ As for what's more obviously available via Google:
 
 - [Borderlands 1 on Nexus](https://www.nexusmods.com/borderlands/) is at
   least one place to acquire BL1 mods.
+
+- [The Borderlands "Fan Creations" GBX Forum](https://forums.gearboxsoftware.com/c/borderlands/fan-creations)
+  is a place where modders can post and discuss their mods.
