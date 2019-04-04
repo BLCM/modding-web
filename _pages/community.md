@@ -4,6 +4,14 @@ permalink: /community/
 
 # Community / Support
 
+## Borderlands 1
+
+The main community chat area for Borderlands 1 modding is the
+[Borderlands: Community Hangout](https://discord.gg/5pzGb6w) Discord, so
+definitely stop by there if you're interested in getting in to that scene.
+
+## Borderlands 2/TPS
+
 If you have any problems installing or running BL2/TPS mods, please see the
 [FAQ](https://bit.ly/2un6scY) first as most questions will be answered there.
 For further support, though, see below.
@@ -11,11 +19,14 @@ For further support, though, see below.
 [Shadow's Evil Hideout](https://discord.gg/0YjZxbVBS9b3bXUS) is a Discord server which
 serves as a home base for UCP development, the home base for management of this site, and
 is a long-running place for BL2/TPS modders to hang out, discuss mods, get help with
-modding, and share their creations.  Stop by and say hello!  We're a friendly bunch.
+modding, and share their creations.  There's also occasional BL1 chatter, and a few
+BL1 modders are around as well.  Stop by and say hello!  We're a friendly bunch.
 There is also a channel for getting help as a user, if you're not able to get mods
 working properly.
 
-Other Discord servers related to Borderlands modding:
+## Other / General
+
+Other communities related to Borderlands modding:
 
 - A [younger community modding Discord server exists](https://discord.gg/x5uQjE6),
   specifically geared towards BL2/TPS modding, like Shadow's Evil Hideout.
