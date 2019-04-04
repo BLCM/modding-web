@@ -11,7 +11,7 @@ unexpected results when using some mods in combination with these.
 
 ## Borderlands 2 Unofficial Community Patch (BL2 UCP)
 
-[![BL2 UCP Logo](/img/bl2_ucp.jpg)](/img/bl2_ucp.jpg)
+[![BL2 UCP Logo](/img/bl2_ucp.jpg)](https://github.com/BLCM/BLCMods/tree/master/Borderlands%202%20mods/Community%20Patch%20Team)
 
 This patch attempts to fix many known issues and bugs in the game as well as
 address dozens of gameplay and balance related issues.  It is available from
@@ -22,7 +22,7 @@ The current version of BL2 UCP is 4.1, and was released in July, 2018.
 
 ## Vanilla Enhanced (for Borderlands 2)
 
-[![Vanilla Enhanced "Logo"](/img/vanillaenhanced.jpg)](/img/vanillaenhanced.jpg)
+[![Vanilla Enhanced "Logo"](/img/vanillaenhanced.jpg)](https://www.nexusmods.com/borderlands2/mods/88)
 
 *(Blame Koby for the "logo")*
 
@@ -34,7 +34,7 @@ is available on [Nexus](https://www.nexusmods.com/borderlands2/mods/88).
 
 ## Borderlands: The Pre-Sequel Unofficial Community Patch (TPS UCP)
 
-[![TPS UCP Logo](/img/tps_ucp.jpg)](/img/tps_ucp.jpg)
+[![TPS UCP Logo](/img/tps_ucp.jpg)](https://github.com/BLCM/BLCMods/tree/master/Pre%20Sequel%20Mods/Community%20Patch)
 
 The TPS UCP has very similar aims as the BL2 UCP.  It is available from
 [Github](https://github.com/BLCM/BLCMods/tree/master/Pre%20Sequel%20Mods/Community%20Patch)
@@ -44,7 +44,7 @@ The current version of TPS UCP is 2.2, and was released in August, 2018.
 
 ## BL2 Reborn
 
-[![BL2 Reborn Logo](/img/reborn.jpg)](/img/reborn.jpg)
+[![BL2 Reborn Logo](/img/reborn.jpg)](https://www.nexusmods.com/borderlands2/mods/115)
 
 If you want to experience Borderlands 2 in a new way, this modpack is exactly
 for you. Currently including 155+ mods and over 650 changes!  Note that BL2 Reborn
