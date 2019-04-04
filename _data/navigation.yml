@@ -1,0 +1,37 @@
+# vim: set expandtab tabstop=2 shiftwidth=2:
+
+# main links.
+main:
+  - title: "Home"
+    url: "/"
+  - title: "BL1 Modding"
+    url: "/bl1/"
+  - title: "BL2/TPS Modding"
+    url: "/bl2tps/"
+  - title: "Community / Support"
+    url: "/community/"
+
+side:
+  - title: "Main Links"
+    children:
+      - title: "Home / News"
+        url: "/"
+      - title: "Community"
+        url: "/community/"
+  - title: "BL1 Modding"
+    children:
+      - title: "Overview"
+        url: "/bl1/"
+  - title: "BL2/TPS Modding"
+    children:
+      - title: "Overview"
+        url: "/bl2tps/"
+      - title: "Running Mods"
+        url: "/running-mods/"
+      - title: "Finding Mods"
+        url: "/finding-mods/"
+      - title: "Major Mod Packs"
+        url: "/mod-packs/"
+      - title: "Writing Mods"
+        url: "/writing-mods/"
+

@@ -1,0 +1,61 @@
+# vim: set expandtab tabstop=2 shiftwidth=2:
+
+title: Borderlands Modding
+url: http://borderlandsmodding.com/
+description: >-
+  All about Borderlands modding, primarily for Borderlands 2
+  and The Pre-Sequel.
+remote_theme: BLCM/modding-web-theme
+minimal_mistakes_skin: dark
+include: ["_pages"]
+
+# The example minimal_mistakes theme uses this, so why not?
+markdown: kramdown
+
+# Posts
+# If we want some fancier category support on posts in the future,
+# it would possibly be worth looking into some of the stuff mentioned,
+# for instance, here: https://blog.webjeda.com/jekyll-categories/
+paginate: 5
+paginate_path: /page:num/
+permalink: /:year/:month/:day/:title/
+
+# Apparently for our theme, these plugins may be needed
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Footer Links
+footer:
+  links:
+    - label: "BL1 Mods @ Nexus"
+      url: "https://www.nexusmods.com/borderlands/"
+    - label: "BL2 + TPS Mods @ Github"
+      url: "https://github.com/BLCM/BLCMods"
+    - label: "BL2 Mods @ Nexus"
+      url: "https://www.nexusmods.com/borderlands2"
+    - label: "TPS Mods @ Nexus"
+      url: "https://www.nexusmods.com/borderlandspresequel/"
+      
+# Defaults for various page types
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "side"
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      sidebar:
+        nav: "side"
