@@ -24,7 +24,7 @@ The current version of BL2 UCP is 4.1, and was released in July, 2018.
 
 [![Vanilla Enhanced "Logo"](/img/vanillaenhanced.jpg)](/img/vanillaenhanced.jpg)
 
-*(Blame Kody for the "logo")*
+*(Blame Koby for the "logo")*
 
 Vanilla Enhanced is a pared-down version of UCP which *only* contains bugfixes,
 reskins, and some QoL changes, but without trying to affect actual balance or
