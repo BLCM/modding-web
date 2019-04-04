@@ -9,8 +9,8 @@ High-Definition Texture Packs" for both Borderlands 2 and TPS.
 They're available for free for all BL2+TPS users as a DLC
 download:
 
-- https://store.steampowered.com/app/941170/Borderlands_2_Ultra_HD_Texture_Pack/
-- https://store.steampowered.com/app/941180/Borderlands_The_PreSequel_Ultra_HD_Texture_Pack/
+- <https://store.steampowered.com/app/941170/Borderlands_2_Ultra_HD_Texture_Pack/>
+- <https://store.steampowered.com/app/941180/Borderlands_The_PreSequel_Ultra_HD_Texture_Pack/>
 
 Along with those updates, though, the main EXE files for
 both games was updated, which broke BLCMM's ability to apply
