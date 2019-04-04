@@ -12,4 +12,6 @@ to check out:
 
 - [UDK Basics / Borderlands Editor](https://forums.gearboxsoftware.com/t/tutorial-basics-of-the-borderlands-editor/70495), by Dopefiend
 
-- 
+- [Level Editing Tutorials](https://iamsparky.wordpress.com/borderlands-level-editing-tutorials/), by Brian Goodsell
+
+- [Tutorial series (weapon/enemy creation)](https://www.youtube.com/playlist?list=PL1DF40FB1B7DB47B6), by BorderlandsJtag
