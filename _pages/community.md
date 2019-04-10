@@ -27,7 +27,7 @@ For further support, though, see below.
 
 - A [newer community modding Discord server exists](https://discord.gg/x5uQjE6),
   which was started by Exotek, specifically geared towards BL2/TPS modding (though
-  some BL1 talk most likely occurs there as well.
+  some BL1 talk most likely occurs there as well).
 
 - BL2 Reborn has [their own Discord server](https://discord.gg/Rakbg5F).
 
