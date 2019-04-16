@@ -14,7 +14,8 @@ like on BL2 and TPS:
 This is the part which enables the full console, so that you can execute mods once
 you're at the main menu.
 
-[Hex Multitool 4.5 can be found here.](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip)
+[Hex Multitool can be found here](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip),
+and instructions for it [can be found here](https://github.com/c0dycode/Borderlands-Hex-Multitool).
 
 ## Use BLCMM for everything else, as usual
 
