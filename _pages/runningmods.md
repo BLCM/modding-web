@@ -16,7 +16,12 @@ BLCMM.
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.
 
-# Preparing Borderlands for Modding
+# Preparing Borderlands for Modding, Method 1 (BLCMM, Currently Broken!)
+
+**Note:** Since the April 2nd (2019) patch to BL2 and TPS, BLCMM's hex editing
+(described here) is broken.  You can still use BLCMM for everything else it
+does, but for now, the hex editing described here will **not** work.  Move
+ahead to Method 2 for a version which does the trick in the meantime!
 
 The first time you start up BLCMM, it will launch a dialog to help you prepare
 BL2 and TPS for accepting mods.  The main two things which have to happen is
@@ -37,6 +42,18 @@ If you want to return to this screen at any time, you can get to it with the
 properly, since BL2+TPS modding relies on using Gearbox's "hotifx" mechanisms
 to do their work.  Also, the Russian-localized version of BL2 can't currently
 be patched.
+
+# Preparing Borderlands for Modding, Method 2 (Hex Multitool)
+
+Another way to hex-edit your BL2/TPS executables to enable the console fully
+is to use c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
+The Hex Multitool is a utility which allows you to make several changes to
+the Borderlands executable files, including the console changes.  It can't be
+used to manage mods like BLCMM does, so you'll still need BLCMM, but it's a good
+way to do these edits (especially as of April 2019, when BLCMM's hex editing
+is broken).
+
+The current Hex Multitool version can be found here: [BL Hex-Multitool .NET 4.5.zip](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip) (requires .NET 4.5)
 
 # Managing Mods
 
