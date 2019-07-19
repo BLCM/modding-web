@@ -10,10 +10,9 @@ now, but more modders have been using Nexus recently.
 ## Github
 
 Mods for both BL2 and TPS are stored [at the BLCMods Github page](https://github.com/BLCM/BLCMods).
-Most users will want to download mods individually, which is unfortunately
-not super straightforward.  When you browse to a mod file you want to
-download, it will either have a `Raw` button or a `Download` button, in the
-upper right hand corner of the file's contents:
+When you browse to a mod file you want to download, it will either have a
+`Raw` button or a `Download` button, in the upper right hand corner of the
+file's contents:
 
 [![Raw Button](/img/github_raw.png)](/img/github_raw.png)
 
@@ -22,10 +21,17 @@ upper right hand corner of the file's contents:
 Right-click on that button and choose `Save Link As...` to save the file to
 your computer, and then use BLCMM to import the mod.
 
-Finding mods on Github is probably its biggest problem, because it's not
-easy to browse through the whole repository.  There is a small attempt at
-categorizing Github mods on the [ModCabinet wiki](https://github.com/BLCM/ModCabinet/wiki)
-but the majority of the Github mods are not found there yet.
+### Sorted Github mods at the ModCabinet Wiki
+
+The ModCabinet wiki is a place where github mods get sorted out into
+categories and gives you a much nicer way to browse through the mods
+to see what's there.  You can [find the ModCabinet wiki here](https://github.com/BLCM/ModCabinet/wiki).
+
+Historically, the ModCabinet wiki wasn't very well populated, since
+users had to edit it manually to get mods in there, but on July 19, 
+it was updated with an automatic generation process which brings in
+the whole github repo.  If you've looked at the wik in the past and
+been underwhelmed, give it another look!
 
 ## Nexus
 
