@@ -29,8 +29,8 @@ to see what's there.  You can [find the ModCabinet wiki here](https://github.com
 
 Historically, the ModCabinet wiki wasn't very well populated, since
 users had to edit it manually to get mods in there, but on July 19, 
-it was updated with an automatic generation process which brings in
-the whole github repo.  If you've looked at the wik in the past and
+2019, it was updated with an automatic generation process which brings
+in the whole github repo.  If you've looked at the wik in the past and
 been underwhelmed, give it another look!
 
 ## Nexus
