@@ -1,5 +1,5 @@
 ---
-title: "BL2 + TPS Modding Fixed with Updated Hex Multitool
+title: "BL2 + TPS Modding Fixed with Updated Hex Multitool"
 ---
 
 # BL2 + TPS Modding Fixed with Updated Hex Multitool
