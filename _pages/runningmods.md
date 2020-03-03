@@ -16,12 +16,23 @@ BLCMM.
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.
 
-# Preparing Borderlands for Modding, Method 1 (BLCMM, Currently Broken!)
+# Preparing Borderlands for Modding, Method 1 (Hex Multitool)
+
+Before you start running mods you need to hex edit your BL2/TPS executables to
+enable the console fully. You can easily do this using c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
+The Hex Multitool is a utility which allows you to make several changes to
+the Borderlands executable files, including the console changes.  It can't be
+used to manage mods like BLCMM does, so you'll still need BLCMM, but it's needed
+to perform these edits, when BLCMM's hex editing is currently broken.
+
+The current Hex Multitool version can be found here: [BL Hex-Multitool .NET 4.5.zip](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip) (requires .NET 4.5)
+
+
+# Preparing Borderlands for Modding, Method 2 (BLCMM, Currently Broken!)
 
 **Note:** Since the April 2nd (2019) patch to BL2 and TPS, BLCMM's hex editing
-(described here) is broken.  You can still use BLCMM for everything else it
-does, but for now, the hex editing described here will **not** work.  Move
-ahead to Method 2 for a version which does the trick in the meantime!
+(described here) is broken.  You can and should still use BLCMM for everything
+else it does, but for now, the hex editing described here will **not** work.
 
 The first time you start up BLCMM, it will launch a dialog to help you prepare
 BL2 and TPS for accepting mods.  The main two things which have to happen is
@@ -42,18 +53,6 @@ If you want to return to this screen at any time, you can get to it with the
 properly, since BL2+TPS modding relies on using Gearbox's "hotifx" mechanisms
 to do their work.  Also, the Russian-localized version of BL2 can't currently
 be patched.
-
-# Preparing Borderlands for Modding, Method 2 (Hex Multitool)
-
-Another way to hex-edit your BL2/TPS executables to enable the console fully
-is to use c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
-The Hex Multitool is a utility which allows you to make several changes to
-the Borderlands executable files, including the console changes.  It can't be
-used to manage mods like BLCMM does, so you'll still need BLCMM, but it's a good
-way to do these edits (especially as of April 2019, when BLCMM's hex editing
-is broken).
-
-The current Hex Multitool version can be found here: [BL Hex-Multitool .NET 4.5.zip](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip) (requires .NET 4.5)
 
 # Managing Mods
 
@@ -87,7 +86,8 @@ its Open/Save dialogs will have a button on the side to go directly to your
 # Actually Running Your Patch File
 
 Once you have your patch file in the game's `Binaries` directory, you should
-be able to execute it from the console.
+be able to execute it from the console. You have to do this every time you
+launch the game.
 
 **Windows Users:** You must execute the mod from the *main menu*.  Wait a few
 seconds for the game to talk to the Gearbox servers to do a bit of setup, then
@@ -103,9 +103,11 @@ then hit `Esc` and then "yes" to go back out to that *Press any key* screen.
 Then hit your console key and use the same `exec` commands that Windows users
 use.  Note that there are a [few extra gotchas when running mods on Mac/Linux](https://github.com/BLCM/BLCMods/wiki/Linux-and-Mac-Setup-Gotchas).
 
-If you are running UCP for Borderlands 2, you will get a message on the screen
-telling you to check your character's skill tree in-game to make sure that the
-patch applied properly, otherwise you will probably see nothing.
+When running most major modpacks you will get a message on the screen telling
+you to check your BAR page in-game to make sure that the mods applied properly.
+If they did you should see a message like this:
+
+[![Running UCP Message](/img/running-ucp-message.png)](/img/running-ucp-message.png)
 
 **NOTE:** Whether or not you use UCP, Reborn, or any other combination of mods,
 they should **always** be stored in your one single patch file, and you should
@@ -114,6 +116,16 @@ files one after the other -- just use the one.
 
 If you have any problems running mods or suspect that something's not working
 properly, see the [Community / Support](/community/) section.
+
+# Uninstalling Mods
+
+If you've run a mod, but decided you don't actually want to play with it. To
+"uninstall" the mod, just restart the game. Mods don't make permanent changes.
+
+If you've merged multiple mods into a single file using BLCM, and you only want
+to remove one of them, you can simply disable that category. To properly remove
+it from the file, enable structural edits in BLCMM's settings, then delete
+should be an option whenever you right click a category.
 
 # Other Links
 

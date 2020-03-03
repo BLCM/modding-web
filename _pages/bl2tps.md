@@ -21,3 +21,5 @@ content on here is spread out over these links:
 - [Writing Mods](/writing-mods/): Most information about writing mods is
   hosted elsewhere, but this page will give you some pointers to that
   information.
+- [SDK Mods](/sdk-mods/): Information about mods using the Python SDK, which
+  is still a developing field but opens up many exciting new possibilities.

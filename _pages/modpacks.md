@@ -18,7 +18,7 @@ address dozens of gameplay and balance related issues.  It is available from
 [Github](https://github.com/BLCM/BLCMods/tree/master/Borderlands%202%20mods/Community%20Patch%20Team)
 or [Nexus](https://www.nexusmods.com/borderlands2/mods/50).
 
-The current version of BL2 UCP is 4.1, and was released in July, 2018.
+The current version of BL2 UCP is 5.0.3, and was released in Feburary, 2020.
 
 ## Vanilla Enhanced (for Borderlands 2)
 

@@ -38,4 +38,5 @@ side:
         url: "/mod-packs/"
       - title: "Writing Mods"
         url: "/writing-mods/"
-
+      - title: "SDK Mods"
+        url: "/sdk-mods/"
