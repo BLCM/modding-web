@@ -25,11 +25,13 @@ For further support, though, see below.
   We're a friendly bunch.  There is also a channel for getting help as a user, if
   you're not able to get mods working properly.
 
+- There is a [PythonSDK Discord server](https://discord.gg/VJXtHvh). Most SDK mod
+  discussion occurs in this server, as well as some talk about the development of
+  the SDK itself.
+
 - A [newer community modding Discord server exists](https://discord.gg/x5uQjE6),
   which was started by Exotek, specifically geared towards BL2/TPS modding (though
   some BL1 talk most likely occurs there as well).
-
-- BL2 Reborn has [their own Discord server](https://discord.gg/Rakbg5F).
 
 ## Other / General
 
@@ -39,4 +41,3 @@ Other communities related to Borderlands modding:
   as well, which appears to have some modding chat on it, though the author of this page
   doesn't really know anything about it.  It appears to be a more general-purpose Borderlands
   Discord, and may have more presence for console users, as opposed to just PC.
-
