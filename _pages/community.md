@@ -16,7 +16,7 @@ If you have any problems installing or running BL2/TPS mods, please see the
 [FAQ](https://bit.ly/2un6scY) first as most questions will be answered there.
 For further support, though, see below.
 
-- [Shadow's Evil Hideout](https://discord.gg/0YjZxbVBS9b3bXUS) is the community
+- [Shadow's Evil Hideout](https://discord.gg/shadowevil) is the community
   Discord for [shadowevil](https://www.youtube.com/channel/UCqhy0tXbMqUrpMTjpv7A9lw).
   It also serves as a home base for UCP development, the home base for management of
   this site, and is a long-running place for BL2/TPS modders to hang out, discuss mods,
