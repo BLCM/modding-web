@@ -5,34 +5,28 @@ blcmmID: VkRgUqru3oU
 
 # Running Mods
 
-The main tool to use to manage Borderlands 2 / Pre-Sequel mods, and prepare
-your game for running mods, is the Borderlands Community Mod Manager, or
-BLCMM.
+This page deals with "traditional" text-based Borderlands 2 / Pre-Sequel
+mods of the sort that are found on the [BLCMods Github](https://github.com/BLCM/BLCMods).
+There's a newer kind of mod called a [Python SDK Mod](/sdk-mods/) which
+has a completely different method of installation and management.  See that
+page for more info on those!
+
+For "traditional" text-based mods, though the main tool to use to manage
+them, and prepare your game for running mods, is the Borderlands Community Mod
+Manager, or BLCMM.
 
 {% include youtubeplayer.html id=page.blcmmID %}
 
-[Click here to download and install BLCMM](https://www.dropbox.com/sh/rsljh5c55s8e9ah/AABMuarIfYCxJb8GiSY1IF6La?dl=0) *(Most Recent Version: v1.1.8, on November 9, 2018)*
+[Click here to download and install BLCMM](https://www.dropbox.com/sh/rsljh5c55s8e9ah/AABMuarIfYCxJb8GiSY1IF6La?dl=0) *(Most Recent Version: v1.2.0, on May 22, 2020)*
 
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.
 
-# Preparing Borderlands for Modding, Method 1 (Hex Multitool)
+# Preparing Borderlands for Modding, Method 1 (BLCMM)
 
-Before you start running mods you need to hex edit your BL2/TPS executables to
-enable the console fully. You can easily do this using c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
-The Hex Multitool is a utility which allows you to make several changes to
-the Borderlands executable files, including the console changes.  It can't be
-used to manage mods like BLCMM does, so you'll still need BLCMM, but it's needed
-to perform these edits, when BLCMM's hex editing is currently broken.
-
-The current Hex Multitool version can be found here: [BL Hex-Multitool .NET 4.5.zip](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip) (requires .NET 4.5)
-
-
-# Preparing Borderlands for Modding, Method 2 (BLCMM, Currently Broken!)
-
-**Note:** Since the April 2nd (2019) patch to BL2 and TPS, BLCMM's hex editing
-(described here) is broken.  You can and should still use BLCMM for everything
-else it does, but for now, the hex editing described here will **not** work.
+Before you start running mods, you need to hex edit your BL2/TPS executables to
+enable the console fully.  One way to do this easily is inside the
+Borderlands Community Mod Manager itself.
 
 The first time you start up BLCMM, it will launch a dialog to help you prepare
 BL2 and TPS for accepting mods.  The main two things which have to happen is
@@ -53,6 +47,19 @@ If you want to return to this screen at any time, you can get to it with the
 properly, since BL2+TPS modding relies on using Gearbox's "hotifx" mechanisms
 to do their work.  Also, the Russian-localized version of BL2 can't currently
 be patched.
+
+# Preparing Borderlands for Modding, Method 2 (Hex Multitool)
+
+Alternatively, you can also do this using c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
+The Hex Multitool is a utility which allows you to make several changes to
+the Borderlands executable files, including the console changes.  It supports
+several hexedits which BLCMM *doesn't* do, such as setting maximum currency
+limits and backpack size, etc.
+
+Hex Multitool doesn't *manage* mods like BLCMM does, though, so you'll still
+need BLCMM for that part.
+
+The current Hex Multitool version can be found here: [BL Hex-Multitool .NET 4.5.zip](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip) (requires .NET 4.5)
 
 # Managing Mods
 
@@ -96,12 +103,26 @@ hit the key that you configured for the console, and then type in
 used).  Depending on how your system saved the file, you may need to end up
 doing something like `exec patch.txt.txt` instead).
 
-**Mac/Linux Users:** You must execute the mod from the *Press any key* screen,
+**Mac Users:** You must execute the mod from the *Press any key* screen,
 but you have to have been to the main menu at least once first.  Once you get
 to the main menu, wait a few seconds for the game to talk to the Gearbox servers,
 then hit `Esc` and then "yes" to go back out to that *Press any key* screen.
 Then hit your console key and use the same `exec` commands that Windows users
-use.  Note that there are a [few extra gotchas when running mods on Mac/Linux](https://github.com/BLCM/BLCMods/wiki/Linux-and-Mac-Setup-Gotchas).
+use.  Note that there are a [few extra gotchas when running mods on Mac](https://github.com/BLCM/BLCMods/wiki/Linux-and-Mac-Setup-Gotchas).
+
+**Linux Users:** The "native" Linux versions of BL2/TPS have become rather out
+of date, unfortunately -- neither have the most recent patches from Gearbox,
+and BL2 in particular doesn't have the latest story DLC (Commander Lilith and
+the Fight for Sanctuary).  That DLC made some changes to the game data, and
+many mods needed to be updated to account for the new data, and so won't work
+totally properly on the native Linux version.  As such, it's actually
+recommended to run the Windows versions of BL2/TPS using Proton, rather than
+the native versions.  To do so, right click on the game in Steam, go to
+`Properties`, and select `Force the use of a specific Steam Play compatibility
+tool`.  Choose the latest Proton version, and you should be good to go!  You
+can follow the Windows instructions above.  If you choose to use the native
+Linux version anyway, all of the advice for the Mac section applies as well,
+so be sure to read that, and click through to the wiki for the extra gotchas.
 
 When running most major modpacks you will get a message on the screen telling
 you to check your BAR page in-game to make sure that the mods applied properly.
