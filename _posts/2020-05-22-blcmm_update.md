@@ -28,3 +28,13 @@ should see a progress bar appear.  Make sure that your version number shows as
 1.2.0 when in the app, and you'll be good to go!  If you need to install BLCMM
 for the first time, [install the launcher from here](https://www.dropbox.com/sh/rsljh5c55s8e9ah/AABMuarIfYCxJb8GiSY1IF6La?dl=0).
 
+Over the years some people asked for a way to donate; a button for this can now
+be found in the about dialog. Having said that; the developers do this for fun,
+and are in no way aiming to make money off of BLCMM. If you have anything else
+to spend your money on, do that instead of donating.
+
+P.S. To the people who got the update before this version was announced: some
+minor tweaks were made since then. It's advised to uninstall BLCMM and do a
+redownload, just to make sure you have the latest version. (The version number
+wasn't changed.)
+
