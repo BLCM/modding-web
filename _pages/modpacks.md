@@ -53,6 +53,16 @@ time.  Reborn changes quite a bit about the game, so definitely be careful when
 using other mods alongside it.  BL2 Reborn is available on
 [Nexus](https://www.nexusmods.com/borderlands2/mods/115).
 
+## BL2 Exodus SDK
+[![BL2 Exodus SDK Logo](/img/exodus_sdk.png)](https://www.nexusmods.com/borderlands2/mods/257)
+
+BL2: Exodus is made with PythonSDK. All the legacy .txt Exodus mechanics are still there and much more.
+Find over 130 completely NEW gear pieces that do not replace existing gear like it used before. New mechanics, new mini bosses... and more.
+
+Some notable aspects of this mod is that vanilla items are not replaced with the exception of the Grog Nozzle, rather there are 81 new weapons and 49 new gear items as of today.
+This mod also includes custom bosses, new ways to obtain loot, different elemental effects, larger bank and stash storage and much more at release.
+Available on [Nexus](https://www.nexusmods.com/borderlands2/mods/257)
+
 # Other Links
 
 For information about how to use these mods, see [Running Mods](/running-mods/).
