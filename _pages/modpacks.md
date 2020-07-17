@@ -61,6 +61,7 @@ Find over 130 completely NEW gear pieces that do not replace existing gear like 
 
 Some notable aspects of this mod is that vanilla items are not replaced with the exception of the Grog Nozzle, rather there are 81 new weapons and 49 new gear items as of today.
 This mod also includes custom bosses, new ways to obtain loot, different elemental effects, larger bank and stash storage and much more at release.
+Available on [Nexus](https://www.nexusmods.com/borderlands2/mods/257)
 
 # Other Links
 
