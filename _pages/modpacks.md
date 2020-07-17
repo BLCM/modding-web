@@ -54,7 +54,7 @@ using other mods alongside it.  BL2 Reborn is available on
 [Nexus](https://www.nexusmods.com/borderlands2/mods/115).
 
 ## BL2 Exodus SDK
-[![BL2 Exodus SDK Logo](/img/exodus_sdk.png](https://www.nexusmods.com/borderlands2/mods/257)
+[![BL2 Exodus SDK Logo](/img/exodus_sdk.png)](https://www.nexusmods.com/borderlands2/mods/257)
 
 BL2: Exodus is made with PythonSDK. All the legacy .txt Exodus mechanics are still there and much more.
 Find over 130 completely NEW gear pieces that do not replace existing gear like it used before. New mechanics, new mini bosses... and more.
