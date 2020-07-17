@@ -15,7 +15,7 @@ up yet another Dropbox link which might just go down itself.
 So, for the forseeable future, the canonical location to download BLCMM
 will be the Nexus Mods link, instead:
 
-- https://www.nexusmods.com/borderlands2/mods/61
+- [https://www.nexusmods.com/borderlands2/mods/61](https://www.nexusmods.com/borderlands2/mods/61)
 
 If you're looking to manage "traditional" text-based mods like the UCP,
 head over to Nexus Mods to get BLCMM.  If a video or some documentation
