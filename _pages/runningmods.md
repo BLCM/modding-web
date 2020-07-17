@@ -17,7 +17,7 @@ Manager, or BLCMM.
 
 {% include youtubeplayer.html id=page.blcmmID %}
 
-[Click here to download and install BLCMM](https://www.dropbox.com/sh/rsljh5c55s8e9ah/AABMuarIfYCxJb8GiSY1IF6La?dl=0) *(Most Recent Version: v1.2.0, on May 22, 2020)*
+[Click here to download and install BLCMM](https://www.nexusmods.com/borderlands2/mods/61) *(Most Recent Version: v1.2.0, on May 22, 2020)*
 
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.
