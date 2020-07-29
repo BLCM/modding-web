@@ -44,8 +44,6 @@ The current version of TPS UCP is 2.2, and was released in August, 2018.
 
 ## BL2 Reborn
 
-[![BL2 Reborn Logo](/img/reborn.jpg)](https://www.nexusmods.com/borderlands2/mods/115)
-
 If you want to experience Borderlands 2 in a new way, this modpack is exactly
 for you. Currently including 155+ mods and over 650 changes!  Note that BL2 Reborn
 already includes UCP - you should not try to use both UCP and Reborn at the same
