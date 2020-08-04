@@ -13,16 +13,21 @@ are a superset of "regular" text mods, they can do all the same things plus more
 # Installing the SDK
 
 Installing the SDK is rather simple. The exact same release is compatible with
-both BL2 and TPS, these instructions work for both.
+both BL2 and TPS, as well as both Steam and Epic versions of them, these
+instructions apply to all of them.
 
 1. [Download the latest release here](https://github.com/bl-sdk/PythonSDK/releases).
    Make sure that you download `PythonSDK.zip`, *not* either source code link.
    The correct file should only contain a few dlls, a zip file, and a "Mods" folder.
-2. Open up the game's folder - in Steam right click the game, properties -> local
-   files -> browse local files - and browse to `Binaries/Win32`.
+2. Open up the game's folder - in Steam you can right click the game, properties ->
+   local files -> browse local files - and browse to `Binaries/Win32`.
    This should be the folder containing the game's exe.
-3. Extract all the files from inside the zip you downloaded to this folder.
-4. Restart the game.
+3. Extract all the files from inside the zip you downloaded to this folder. Extract
+   the files, not the folder, you want there to be a `Win32/ddraw.dll`, and not a
+   `Win32/PythonSDK/ddraw.dll`.
+4. [Download and install this](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+   Microsoft Visual C++ Redistributable. Most of the time this will already be
+   installed.
 
 Updating the SDK works much the same, though note that occasionally you may have
 to delete files from older versions.
