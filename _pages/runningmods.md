@@ -22,7 +22,11 @@ Manager, or BLCMM.
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.
 
-# Preparing Borderlands for Modding, Method 1 (BLCMM)
+# Preparing Borderlands for Modding, Method 1 - Steam Only (BLCMM)
+
+**Note:** BLCMM cannot currently hex-edit the Epic Games Store version of
+BL2 or TPS.  EGS users should use Method 2 (Hex Multitool) instead.  Steam
+users can still use either, depending on your preferences.
 
 Before you start running mods, you need to hex edit your BL2/TPS executables to
 enable the console fully.  One way to do this easily is inside the
@@ -48,7 +52,7 @@ properly, since BL2+TPS modding relies on using Gearbox's "hotifx" mechanisms
 to do their work.  Also, the Russian-localized version of BL2 can't currently
 be patched.
 
-# Preparing Borderlands for Modding, Method 2 (Hex Multitool)
+# Preparing Borderlands for Modding, Method 2 - Steam or EGS (Hex Multitool)
 
 Alternatively, you can also do this using c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
 The Hex Multitool is a utility which allows you to make several changes to
