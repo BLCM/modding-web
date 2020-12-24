@@ -40,6 +40,8 @@ footer:
       url: "https://www.nexusmods.com/borderlands2"
     - label: "TPS Mods @ Nexus"
       url: "https://www.nexusmods.com/borderlandspresequel/"
+    - label: "BL3 Mods @ Github"
+      url: "https://github.com/BLCM/bl3mods/wiki"
       
 # Defaults for various page types
 defaults:
