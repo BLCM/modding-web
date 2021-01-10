@@ -43,14 +43,30 @@ For information on where to look for BL3 Hotfix mods, check out our
 
 # Info for Linux Users
 
-Borderlands 3 doesn't have a native Linux version, but Linux users have been
-able to [run BL3 via proton](https://www.protondb.com/app/397540) for some
-time now.  Unfortunately, with the limited testing done so far, we've not had
-much success getting B3HM running in that environment.
+It *is* possible to run B3HM on Linux, though possibly not with the "stock"
+Proton versions which are pacakged in Steam.  As of January 10, 2021, though,
+the [5.21-GE-1 version of GloriousEggroll's proton-ge-custom](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/5.21-GE-1)
+happens to work great!  Install it using their [installation
+instructions](https://github.com/GloriousEggroll/proton-ge-custom#installation)
+and you should be good to go.  It's possible that future versions beyond
+5.21 will work as well, so feel free to check the [latest
+releases](https://github.com/GloriousEggroll/proton-ge-custom/releases),
+though regressions are the bane of Wine development.
 
-Fortunately for Linux users, there's an alternate method which has been available
-for some time now, although it requires quite a bit more manual setup than
-B3HM does.  Check out [apocalyptech's bl3hotfixmodding repo](https://github.com/apocalyptech/bl3hotfixmodding)
+The PluginLoader (DLL) version will be the easiest to get running -- if you
+try the EXE version you'll have to make sure to be running both the game
+and B3HM inside the same `WINEPREFIX`.
+
+If you're using Steam and have used other Proton versions in the past, you
+might need to wipe your `(steamroot)/steamapps/compatdata/397540` and
+allow Steam to reinitialize it with the GE version, otherwise in-game
+videos might not work properly.  If you do, make sure you back up your
+savegames and settings, since they live under
+`(steamroot)/steamapps/compatdata/397540/pfx/drive_c/users/steamuser/My Documents/My Games/Borderlands 3`.
+
+A "legacy" modding method for Linux users is still available as well, though
+it takes more setup and technical knowhow.  Check out [apocalyptech's
+bl3hotfixmodding repo](https://github.com/apocalyptech/bl3hotfixmodding)
 for a general overview of the technique, and a [mitmproxy](https://mitmproxy.org/)-based
 script to handle loading mods and getting the hotfix injection working right.
 That page doesn't go into *all* the details necessary to get mitmproxy up and
