@@ -45,16 +45,11 @@ define additonal actions you can perform there.
 
 # Finding SDK Mods
 
-Currently there are not many SDK mods, so there is no centralized repository.
-Instead mods tend to be stored in the author's own repositories.
+There's actually a central database for SDK mods, hosted over at the [PythonSDK Mod Database](https://bl-sdk.github.io/)
 
-The best way to keep track of SDK mods is simply to join one of the [community discord servers](/community/)
+Instead mod downloads themselves tend to be stored in the author's own repositories.
+You might also want to join one of the [community discord servers](/community/)
 and pay attention to their mod downloads channels.
-
-Otherwise, here is a list of locations to check:
- - [apple1417's repo](https://github.com/apple1417/bl-sdk-mods)
- - [juso40's repo](https://github.com/juso40/bl2sdk_Mods/)
- - [PythonSDK repo](https://github.com/bl-sdk/PythonSDK/tree/master/Mods)
 
 # Installing SDK Mods
 
