@@ -26,6 +26,6 @@ more info!
 
 For support with running BL3 Hotfix mods, you can ask on the
 [B3HM Nexusmods Page](https://www.nexusmods.com/borderlands3/mods/244), or
-free to join [Shadow's Evil Hideout Discord](https://discord.gg/shadowevil)
-and ask in the BL3 Modding Help channel there.
+possibly at the [Borderlands 3 Modding Discord](https://discord.gg/38sDVpE),
+though that server is more geared towards item/save editing.
 

@@ -70,6 +70,6 @@ bl3hotfixmodding repo](https://github.com/apocalyptech/bl3hotfixmodding)
 for a general overview of the technique, and a [mitmproxy](https://mitmproxy.org/)-based
 script to handle loading mods and getting the hotfix injection working right.
 That page doesn't go into *all* the details necessary to get mitmproxy up and
-running for this purpose, but feel free to ask apocalyptech about it in
-[Shadow's Evil Hideout](https://discord.gg/shadowevil).
+running for this purpose, but feel free to
+[ask apocalyptech about it](https://apocalyptech.com/contact.php).
 

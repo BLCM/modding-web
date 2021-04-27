@@ -27,6 +27,5 @@ is the [BL3 ModCabinet Wiki](https://github.com/BLCM/bl3mods/wiki).
 
 If you have trouble getting BL3 modding going, you can ask questions at the
 [B3HM Nexusmods Page](https://www.nexusmods.com/borderlands3/mods/244), or
-free to join [Shadow's Evil Hideout Discord](https://discord.gg/shadowevil)
-and ask in the BL3 Modding Help channel there.
+check the other [community Discord servers](/community/).
 
