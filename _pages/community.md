@@ -3,6 +3,7 @@ permalink: /community/
 ---
 
 # Community / Support
+[Borderlands Mod Support](https://discord.gg/bXeqV8Ef9R) is the central discord server for modding support for any of the games.
 
 ## Borderlands 1
 
@@ -10,11 +11,7 @@ permalink: /community/
   [Borderlands: Community Hangout](https://discord.gg/5pzGb6w) Discord, so
   definitely stop by there if you're interested in getting in to that scene.
 
-## Borderlands 2/TPS
-
-If you have any problems installing or running BL2/TPS mods, please see the
-[FAQ](https://bit.ly/2un6scY) first as most questions will be answered there.
-For further support, though, see below.
+## Borderlands 2/TPS/AoDK
 
 - There is a [PythonSDK Discord server](https://discord.gg/VJXtHvh). Most SDK mod
   discussion occurs in this server, as well as some talk about the development of
