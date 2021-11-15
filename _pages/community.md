@@ -11,7 +11,15 @@ permalink: /community/
   [Borderlands: Community Hangout](https://discord.gg/5pzGb6w) Discord, so
   definitely stop by there if you're interested in getting in to that scene.
 
+- [Borderlands Mods Support](https://discord.gg/bXeqV8Ef9R) is a newer server
+  with some BL1 mod support, though the BL1 areas might be a little less
+  populated than BL2/TPS/BL3.
+
 ## Borderlands 2/TPS/AoDK
+
+- [Borderlands Mods Support](https://discord.gg/bXeqV8Ef9R) is a newer server
+  started in November 2021 by Shadowevil, as a spin-off from Shadow's Evil Hideout,
+  which had long been the main hub for BL2/TPS modding.
 
 - There is a [PythonSDK Discord server](https://discord.gg/VJXtHvh). Most SDK mod
   discussion occurs in this server, as well as some talk about the development of
@@ -26,6 +34,10 @@ permalink: /community/
 Borderlands 3 modding is still in very early days, so expect there to be some hiccups
 as more and more people start using the software and mods.  There are a few places
 to go for help with doing BL3 hotfix modding, though:
+
+- [Borderlands Mods Support](https://discord.gg/bXeqV8Ef9R) is a newer server
+  started in November 2021 by Shadowevil, as a spin-off from Shadow's Evil Hideout,
+  which had been the main hub for BL3 modding.
 
 - The [B3HM Nexusmods Page](https://www.nexusmods.com/borderlands3/mods/244) can
   be used to report bugs or ask for help running it.
