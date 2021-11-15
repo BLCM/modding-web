@@ -3,6 +3,9 @@ permalink: /community/
 ---
 
 # Community / Support
+
+## General
+
 [Borderlands Mod Support](https://discord.gg/bXeqV8Ef9R) is the central discord server for modding support for any of the games.
 
 ## Borderlands 1
@@ -12,8 +15,8 @@ permalink: /community/
   definitely stop by there if you're interested in getting in to that scene.
 
 - [Borderlands Mods Support](https://discord.gg/bXeqV8Ef9R) is a newer server
-  with some BL1 mod support, though the BL1 areas might be a little less
-  populated than BL2/TPS/BL3.
+  started in November 2021.  The BL1 areas might be a little less populated
+  than BL2/TPS/BL3, but it's growing.
 
 ## Borderlands 2/TPS/AoDK
 
@@ -25,7 +28,7 @@ permalink: /community/
   discussion occurs in this server, as well as some talk about the development of
   the SDK itself.
 
-- A [newer community modding Discord server exists](https://discord.gg/x5uQjE6),
+- An [alternate community modding Discord server exists](https://discord.gg/x5uQjE6),
   which was started by Exotek, specifically geared towards BL2/TPS modding (though
   some BL1 talk most likely occurs there as well).
 
