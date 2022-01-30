@@ -17,6 +17,8 @@ You can [find the ModCabinet wiki here](https://github.com/BLCM/ModCabinet/wiki)
 The ModCabinet automatically gets updated when modders add or update mods
 to the BLCM Github repo.
 
+[![ModCabinet Header](/img/bl2modcabinet.png)](/img/bl2modcabinet.png)
+
 ## Direct Github Access
 
 You can also download mods for both BL2 and TPS directly from
