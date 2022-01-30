@@ -7,21 +7,23 @@ There are two primary places to acquire mods for BL2 and TPS: Github and
 Nexus Mods.  Github has been the primary place to store mods for some time
 now, but more modders have been using Nexus recently.
 
-## Github
+## ModCabinet
 
 The ModCabinet wiki is a place where github mods get sorted out into
-categories and gives you a nice way to browse through the mods to see
-what's there.  You can [find the ModCabinet wiki here](https://github.com/BLCM/ModCabinet/wiki).
-The ModCabinet should automatically get updated as modders add or
-update mods to the BLCM Github repo.
+categories, and it's the preferred way to find BL2/TPS mods.  It gives you
+a nice way to browse through the mods to see what's there.
 
-### Direct Github Access
+You can [find the ModCabinet wiki here](https://github.com/BLCM/ModCabinet/wiki).
+The ModCabinet automatically gets updated when modders add or update mods
+to the BLCM Github repo.
+
+## Direct Github Access
 
 You can also download mods for both BL2 and TPS directly from
-[the BLCMods Github page](https://github.com/BLCM/BLCMods).
-When you browse to a mod file you want to download, it will either have a
-`Raw` button or a `Download` button, in the upper right hand corner of the
-file's contents:
+[the BLCMods Github page](https://github.com/BLCM/BLCMods), though the
+process can be a bit confusing for github newbies.  When you browse to a
+mod file you want to download, it will either have a `Raw` button or a
+`Download` button, in the upper right hand corner of the file's contents:
 
 [![Raw Button](/img/github_raw.png)](/img/github_raw.png)
 
