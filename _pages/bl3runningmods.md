@@ -9,13 +9,16 @@ with mods in BL2/TPS.  You will *not* be using BLCMM to manage your mod list, an
 you won't be using a console to run any `exec` commands.
 
 Instead, BL3 modding requires that a program modifies the hotfixes that are being
-sent from Gearbox, and so another program has to get in the way and do that.  This
-is where [B3HM](https://www.nexusmods.com/borderlands3/mods/244) (Borderlands 3
-Hotfix Merger) comes in!
+sent from Gearbox, and so another program has to get in the way and do that.  There
+are now two methods to do this: [B3HM](https://www.nexusmods.com/borderlands3/mods/244)
+(Borderlands 3 Hotfix Merger), and [Open Hotfix Loader](https://github.com/apple1417/OpenHotfixLoader).
 
 # B3HM (Borderlands 3 Hotfix Merger)
 
 B3HM is a tool written by c0dycode to merge in custom hotfixes for BL3 to pick up.
+As of August 28, 2022, it does not yet support Wonderlands, but once v1.0.2 is
+released (likely in September), Wonderlands should be supported as well.
+
 It's available either as a standalone EXE, or as a DLL which you can inject in
 a variety of methods.  You can find B3HM in these locations:
 
@@ -36,6 +39,18 @@ written by FromDarkHell, and a tutorial video by FromDarkHell:
 
 {% include youtubeplayer.html id=page.b3hmHowtoID %}
 
+# OHL (Open Hotfix Loader)
+
+Open Hotfix Loader is a tool written by apple1417 with much the same goal as B3HM,
+though it does its hotfix injection via a completely different method which
+doesn't have to mess with network streams.  Some handy links for OHL:
+
+- [Main Github Site](https://github.com/apple1417/OpenHotfixLoader)
+- [Video Install Guide](https://youtu.be/gHX3dtZIojY)
+- [Releases](https://github.com/apple1417/OpenHotfixLoader/releases)
+
+Open Hotfix Loader supports both BL3 and Wonderlands.
+
 # Finding Mods
 
 For information on where to look for BL3 Hotfix mods, check out our
@@ -43,26 +58,15 @@ For information on where to look for BL3 Hotfix mods, check out our
 
 # Info for Linux Users
 
-It *is* possible to run B3HM on Linux, though possibly not with the "stock"
-Proton versions which are pacakged in Steam.  As of January 10, 2021, though,
-the [5.21-GE-1 version of GloriousEggroll's proton-ge-custom](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/5.21-GE-1)
-happens to work great!  Install it using their [installation
-instructions](https://github.com/GloriousEggroll/proton-ge-custom#installation)
-and you should be good to go.  It's possible that future versions beyond
-5.21 will work as well, so feel free to check the [latest
-releases](https://github.com/GloriousEggroll/proton-ge-custom/releases),
-though regressions are the bane of Wine development.
-
-The PluginLoader (DLL) version will be the easiest to get running -- if you
-try the EXE version you'll have to make sure to be running both the game
-and B3HM inside the same `WINEPREFIX`.
-
-If you're using Steam and have used other Proton versions in the past, you
-might need to wipe your `(steamroot)/steamapps/compatdata/397540` and
-allow Steam to reinitialize it with the GE version, otherwise in-game
-videos might not work properly.  If you do, make sure you back up your
-savegames and settings, since they live under
-`(steamroot)/steamapps/compatdata/397540/pfx/drive_c/users/steamuser/My Documents/My Games/Borderlands 3`.
+B3HM and OHL should both run just great on modern Proton versions, whether
+via the [GloriousEggroll versions](https://github.com/GloriousEggroll/proton-ge-custom)
+or Steam's own Proton.  The PluginLoader (DLL) version will be the easiest
+to get running (and is the *only* option for running OHL).  If you try the EXE
+version of B3HM, you'll have to make sure to be running both the game and B3HM
+inside the same `WINEPREFIX`, and have various environment variables set properly.
+Remember that nowadays the correct way to launch other apps inside a Proton
+prefix is with a `proton run <foo>` command, rather than running a Wine
+binary directly.
 
 A "legacy" modding method for Linux users is still available as well, though
 it takes more setup and technical knowhow.  Check out [apocalyptech's

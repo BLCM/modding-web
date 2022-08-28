@@ -4,12 +4,14 @@
 main:
   - title: "Home"
     url: "/"
-  - title: "BL1 Modding"
+  - title: "BL1"
     url: "/bl1/"
-  - title: "BL2/TPS Modding"
+  - title: "BL2/TPS"
     url: "/bl2tps/"
-  - title: "BL3 Modding"
+  - title: "BL3"
     url: "/bl3/"
+  - title: "WL"
+    url: "/wl/"
   - title: "Community / Support"
     url: "/community/"
 
@@ -52,4 +54,14 @@ side:
         url: "/bl3-finding-mods/"
       - title: "Writing Mods"
         url: "/bl3-writing-mods/"
+  - title: "WL Modding"
+    children:
+      - title: "Overview"
+        url: "/wl/"
+      - title: "Running Mods"
+        url: "/wl-running-mods/"
+      - title: "Finding Mods"
+        url: "/wl-finding-mods/"
+      - title: "Writing Mods"
+        url: "/wl-writing-mods/"
 

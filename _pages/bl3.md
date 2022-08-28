@@ -17,7 +17,7 @@ pages depending on what you're interested in doing.  Click through for
 more info!
 
 - [Running Mods](/bl3-running-mods/): How to run Borderlands 3
-  mods, using c0dycode's B3HM application.
+  mods, using one of a few different methods.
 - [Finding Mods](/bl3-finding-mods/): How to find Borderlands 3 mods to
   use in your game.
 - [Writing Mods](/bl3-writing-mods/): Most of the detailed information
@@ -25,7 +25,5 @@ more info!
   give you some pointers to that information.
 
 For support with running BL3 Hotfix mods, you can ask on the
-[B3HM Nexusmods Page](https://www.nexusmods.com/borderlands3/mods/244), or
-possibly at the [Borderlands 3 Modding Discord](https://discord.gg/38sDVpE),
-though that server is more geared towards item/save editing.
+[Modding Support Discord](https://discord.gg/bXeqV8Ef9R).
 
