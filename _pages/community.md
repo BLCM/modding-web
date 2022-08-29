@@ -32,18 +32,14 @@ permalink: /community/
   which was started by Exotek, specifically geared towards BL2/TPS modding (though
   some BL1 talk most likely occurs there as well).
 
-## Borderlands 3
+## Borderlands 3 / Wonderlands
 
-Borderlands 3 modding is still in very early days, so expect there to be some hiccups
-as more and more people start using the software and mods.  There are a few places
-to go for help with doing BL3 hotfix modding, though:
-
-- [Borderlands Mods Support](https://discord.gg/bXeqV8Ef9R) is a newer server
+- [Borderlands Mods Support](https://discord.gg/bXeqV8Ef9R) is a server
   started in November 2021 by Shadowevil, as a spin-off from Shadow's Evil Hideout,
   which had been the main hub for BL3 modding.
 
 - The [B3HM Nexusmods Page](https://www.nexusmods.com/borderlands3/mods/244) can
-  be used to report bugs or ask for help running it.
+  be used to report bugs or ask for help running B3HM.
 
 - A Discord server named [Borderlands 3 Modding](https://discord.gg/38sDVpE)
   has existed for awhile which has historically been more focused on item/savegame
