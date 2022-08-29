@@ -23,7 +23,7 @@ To download the mod to your hard drive, you can right-click on the `Download fro
 link and choose "Save Link As."  B3HM does not require you to download the mod,
 if you don't want to, though!  You could instead right-click on `Download from Github`
 and choose "Copy Link Location", and then add in that URL to B3HM's mod list.  That
-way you'll always end up loading the most recent version of the mod.  Open Hotfix Loader
+way you'll always end up loading the most recent version of the mod.  OpenHotfixLoader
 *does* currently require that you download the mod to your hard drive, though.
 
 If you want to keep your collection of mods a little more stable, you might want to

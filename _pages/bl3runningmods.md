@@ -11,7 +11,7 @@ you won't be using a console to run any `exec` commands.
 Instead, BL3 modding requires that a program modifies the hotfixes that are being
 sent from Gearbox, and so another program has to get in the way and do that.  There
 are now two methods to do this: [B3HM](https://www.nexusmods.com/borderlands3/mods/244)
-(Borderlands 3 Hotfix Merger), and [Open Hotfix Loader](https://github.com/apple1417/OpenHotfixLoader).
+(Borderlands 3 Hotfix Merger), and [OpenHotfixLoader](https://github.com/apple1417/OpenHotfixLoader).
 
 # B3HM (Borderlands 3 Hotfix Merger)
 
@@ -39,9 +39,9 @@ written by FromDarkHell, and a tutorial video by FromDarkHell:
 
 {% include youtubeplayer.html id=page.b3hmHowtoID %}
 
-# OHL (Open Hotfix Loader)
+# OHL (OpenHotfixLoader)
 
-Open Hotfix Loader is a tool written by apple1417 with much the same goal as B3HM,
+OpenHotfixLoader is a tool written by apple1417 with much the same goal as B3HM,
 though it does its hotfix injection via a completely different method which
 doesn't have to mess with network streams.  Some handy links for OHL:
 
@@ -49,7 +49,7 @@ doesn't have to mess with network streams.  Some handy links for OHL:
 - [Video Install Guide](https://youtu.be/gHX3dtZIojY)
 - [Releases](https://github.com/apple1417/OpenHotfixLoader/releases)
 
-Open Hotfix Loader supports both BL3 and Wonderlands.
+OpenHotfixLoader supports both BL3 and Wonderlands.
 
 # Finding Mods
 
