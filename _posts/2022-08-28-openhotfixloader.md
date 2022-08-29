@@ -23,9 +23,9 @@ This release is considered a beta to test stability. It should be fully
 functional, but what better way is there to find the edge cases than to release
 it to everyone?
 
-Installation Guide (same for both games): <https://youtu.be/gHX3dtZIojY>
-OpenHotfixLoader: <https://github.com/apple1417/OpenHotfixLoader/releases/>
-Plugin Loader: <https://github.com/FromDarkHell/BL3DX11Injection/releases/>
+- Installation Guide (same for both games): <https://youtu.be/gHX3dtZIojY>
+- OpenHotfixLoader: <https://github.com/apple1417/OpenHotfixLoader/releases/>
+- Plugin Loader: <https://github.com/FromDarkHell/BL3DX11Injection/releases/>
 
 If you need help, join the modding support discord: <https://discord.gg/bXeqV8Ef9R>
 
