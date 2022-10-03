@@ -19,14 +19,12 @@ which looks like this:
 
 [![ModCabinet Header](/img/bl3modcabinet.png)](/img/bl3modcabinet.png)
 
-To download the mod to your hard drive, you can right-click on the `Download from Github`
-link and choose "Save Link As."  B3HM does not require you to download the mod,
-if you don't want to, though!  You could instead right-click on `Download from Github`
-and choose "Copy Link Location", and then add in that URL to B3HM's mod list.  That
-way you'll always end up loading the most recent version of the mod.
-
-If you want to keep your collection of mods a little more stable, you might want to
-download the files locally anyway, of course.
+When using B3HM or OHL, you can either save the file locally to our hard drive,
+or have them load the mod from the internet.  To save the file locally for either,
+right-click the link and choose "Save Link As."  To have OHL load the file from the
+internet instead, simply drag the link to your mods folder to create a shortcut.  To
+have B3HM load from the internet, right-click on the mod name and choose "Copy Link
+Location," and then paste that into B3HM when asked.
 
 ## Direct Github Access
 
