@@ -17,10 +17,9 @@ mod users install PythonSDK, whether you're using PythonSDK mods or not.
 
 # Installing PythonSDK
 
-The PythonSDK website itself has detailed installation instructions,
-including pictures and a video: https://bl-sdk.github.io/#sdk-installation.
-You can also check out a dedicated [Python SDK](/sdk-mods/) page on this
-site.
+The PythonSDK website itself has [detailed installation instructions](https://bl-sdk.github.io/#sdk-installation),
+including pictures and a video.  You can also check out a dedicated
+[Python SDK](/sdk-mods/) page on this site.
 
 The quick steps can be found here, though:
 
@@ -36,8 +35,8 @@ The quick steps can be found here, though:
 4. [Download and install this](https://aka.ms/vs/16/release/vc_redist.x86.exe)
    Microsoft Visual C++ Redistributable. Most of the time this will already be
    installed.
-5. If you're trying to install the SDK on Linux, there are aa few extra steps:
-   https://bl-sdk.github.io/#installing-on-linux.
+5. If you're trying to install the SDK on Linux,
+   [there are few extra steps](https://bl-sdk.github.io/#installing-on-linux).
 
 You'll know that the PythonSDK is loaded properly when your BL2/TPS main menu
 includes a "Mods" entry.
@@ -49,10 +48,9 @@ page will deal with managing the text-based sort.
 
 # Managing Text-Based Mods: Starting BLCMM
 
-For "traditional" text-based mods, though the main tool to use to manage
-them is the Borderlands Community Mod Manager, or BLCMM.
-
-[Click here to download and install BLCMM](https://www.nexusmods.com/borderlands2/mods/61) *(Most Recent Version: v1.2.0, on May 22, 2020)*
+For "traditional" text-based mods, the main management tool is the Borderlands
+Community Mod Manager, or BLCMM.  [Click here to download and install
+BLCMM](https://www.nexusmods.com/borderlands2/mods/61) *(Most Recent Version: v1.2.0, on May 22, 2020)*
 
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.

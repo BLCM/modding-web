@@ -28,8 +28,8 @@ instructions apply to all of them.
 4. [Download and install this](https://aka.ms/vs/16/release/vc_redist.x86.exe)
    Microsoft Visual C++ Redistributable. Most of the time this will already be
    installed.
-5. If you're trying to install the SDK on Linux, there are aa few extra steps:
-   https://bl-sdk.github.io/#installing-on-linux.
+5. If you're trying to install the SDK on Linux,
+   [there are few extra steps](https://bl-sdk.github.io/#installing-on-linux).
 
 Updating the SDK works much the same, though note that occasionally you may have
 to delete files from older versions.
