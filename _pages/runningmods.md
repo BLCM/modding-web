@@ -5,67 +5,67 @@ blcmmID: VkRgUqru3oU
 
 # Running Mods
 
-This page deals with "traditional" text-based Borderlands 2 / Pre-Sequel
-mods of the sort that are found on the [BLCMods Github](https://github.com/BLCM/BLCMods).
-There's a newer kind of mod called a [Python SDK Mod](/sdk-mods/) which
-has a completely different method of installation and management.  See that
-page for more info on those!
+There are a couple of different types of mods available for Borderlands 2
+and The Pre-Sequel: "traditional" text-based mods, and PythonSDK-based
+mods.  Historically, BLCMM and/or Hex Multitool were used to prepare the
+game for using text-based mods, whereas PythonSDK had its own installation
+method for using PythonSDK mods.
+
+However, nowadays installing PythonSDK is the first step to running mods,
+regardless of what type of mod you're running.  We recommend that *all*
+mod users install PythonSDK, whether you're using PythonSDK mods or not.
+
+# Installing PythonSDK
+
+The PythonSDK website itself has detailed installation instructions,
+including pictures and a video: https://bl-sdk.github.io/#sdk-installation.
+You can also check out a dedicated [Python SDK](/sdk-mods/) page on this
+site.
+
+The quick steps can be found here, though:
+
+1. [Download the latest release here](https://github.com/bl-sdk/PythonSDK/releases).
+   Make sure that you download `PythonSDK.zip`, *not* either source code link.
+   The correct file should only contain a few dlls, a zip file, and a "Mods" folder.
+2. Open up the game's folder - in Steam you can right click the game, properties ->
+   local files -> browse local files - and browse to `Binaries/Win32`.
+   This should be the folder containing the game's exe.
+3. Extract all the files from inside the zip you downloaded to this folder. Extract
+   the files, not the folder, you want there to be a `Win32/ddraw.dll`, and not a
+   `Win32/PythonSDK/ddraw.dll`.
+4. [Download and install this](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+   Microsoft Visual C++ Redistributable. Most of the time this will already be
+   installed.
+5. If you're trying to install the SDK on Linux, there are aa few extra steps:
+   https://bl-sdk.github.io/#installing-on-linux.
+
+You'll know that the PythonSDK is loaded properly when your BL2/TPS main menu
+includes a "Mods" entry.
+
+Now that PythonSDK is installed, you'll be able to start making use of traditional
+text-based mods, in addition to PythonSDK mods.  See the [Python SDK](/sdk-mods/)
+page for some more information on running PythonSDK mods, but the rest of this
+page will deal with managing the text-based sort.
+
+# Managing Text-Based Mods: Starting BLCMM
 
 For "traditional" text-based mods, though the main tool to use to manage
-them, and prepare your game for running mods, is the Borderlands Community Mod
-Manager, or BLCMM.
-
-{% include youtubeplayer.html id=page.blcmmID %}
+them is the Borderlands Community Mod Manager, or BLCMM.
 
 [Click here to download and install BLCMM](https://www.nexusmods.com/borderlands2/mods/61) *(Most Recent Version: v1.2.0, on May 22, 2020)*
 
 BLCMM will auto-update to the latest version, if needed, from its splash
 screen.
 
-# Preparing Borderlands for Modding, Method 1 - Steam Only (BLCMM)
+**NOTE:** BLCMM includes some methods of trying to hex-edit the game which
+*no longer work* in a wide variety of situations.  When you start up BLCMM for
+the first time, it will bring up a dialog which attempts to set up the game
+for modding, but *PythonSDK has already done this for you*.  This dialog
+should be **ignored** -- even though it may throw an error, or tell you that
+it can't find the game, just click through that dialog and put it out of your
+mind.  You won't need to see it again.
 
-**Note:** BLCMM cannot currently hex-edit the Epic Games Store version of
-BL2 or TPS.  EGS users should use Method 2 (Hex Multitool) instead.  Steam
-users can still use either, depending on your preferences.
-
-Before you start running mods, you need to hex edit your BL2/TPS executables to
-enable the console fully.  One way to do this easily is inside the
-Borderlands Community Mod Manager itself.
-
-The first time you start up BLCMM, it will launch a dialog to help you prepare
-BL2 and TPS for accepting mods.  The main two things which have to happen is
-hex-editing the game to accept the console commands we need, and setting up a
-console key to use in the game.  It will look like this:
-
-[![BLCMM Setup Game Files Dialog](/img/blcmm-setup-files.png)](/img/blcmm-setup-files.png)
-
-If you don't have those options, there should be some text describing what to
-do to fix it.  Click the `Apply` button for `Hexedit executable`, and then
-choose a console key from the dropdown.  Then hit the `OK` button and your
-game should be ready to run mods!
-
-If you want to return to this screen at any time, you can get to it with the
-`Tools -> Setup game files for mods` menu option.
-
-**NOTE:** Cracked versions of Borderlands are very often not able to run mods
-properly, since BL2+TPS modding relies on using Gearbox's "hotifx" mechanisms
-to do their work.  Also, the Russian-localized version of BL2 can't currently
-be patched.
-
-# Preparing Borderlands for Modding, Method 2 - Steam or EGS (Hex Multitool)
-
-Alternatively, you can also do this using c0dycode's [Hex Multitool](https://github.com/c0dycode/Borderlands-Hex-Multitool).
-The Hex Multitool is a utility which allows you to make several changes to
-the Borderlands executable files, including the console changes.  It supports
-several hexedits which BLCMM *doesn't* do, such as setting maximum currency
-limits and backpack size, etc.
-
-Hex Multitool doesn't *manage* mods like BLCMM does, though, so you'll still
-need BLCMM for that part.
-
-The current Hex Multitool version can be found here: [BL Hex-Multitool .NET 4.5.zip](https://github.com/c0dycode/Borderlands-Hex-Multitool/raw/master/BL%20Hex-Multitool%20.NET%204.5.zip) (requires .NET 4.5)
-
-# Managing Mods
+# Managing Text-Based Mods: Using BLCMM
 
 Because of how BL2/TPS modding works, all of your mods that you use have to
 be combined into a *single* file to run from the console.  Some folks start
@@ -156,3 +156,4 @@ should be an option whenever you right click a category.
 
 For information on some of the major mod packs, see [Major Mod Packs](/mod-packs/).
 For information on how to find other mods to use, see [Finding Mods](/finding-mods/).
+

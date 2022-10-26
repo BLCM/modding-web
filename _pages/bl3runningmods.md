@@ -1,6 +1,7 @@
 ---
 permalink: /bl3-running-mods/
 b3hmHowtoID: KYgUzKomXrk
+ohlHowtoID: gHX3dtZIojY
 ---
 # Running Borderlands 3 Mods
 
@@ -10,13 +11,28 @@ you won't be using a console to run any `exec` commands.
 
 Instead, BL3 modding requires that a program modifies the hotfixes that are being
 sent from Gearbox, and so another program has to get in the way and do that.  There
-are now two methods to do this: [B3HM](https://www.nexusmods.com/borderlands3/mods/244)
-(Borderlands 3 Hotfix Merger), and [OpenHotfixLoader](https://github.com/apple1417/OpenHotfixLoader).
+are now two methods to do this: [OpenHotfixLoader](https://github.com/apple1417/OpenHotfixLoader),
+and [B3HM](https://www.nexusmods.com/borderlands3/mods/244) (Borderlands 3 Hotfix
+Merger).
+
+# OHL (OpenHotfixLoader)
+
+OpenHotfixLoader is a fully open-source tool written by apple1417 to do local
+hotfix injection without having to mess with network streams (like B3HM does).
+It's fully compatible with both BL3 and Wonderlands, and features a bit more
+hotfix support than what B3Hm currently has (as of October 26, 2022).
+
+Some handy links for OHL:
+
+- [Main Github Site](https://github.com/apple1417/OpenHotfixLoader)
+- [Releases](https://github.com/apple1417/OpenHotfixLoader/releases)
+
+{% include youtubeplayer.html id=page.ohlHowtoID %}
 
 # B3HM (Borderlands 3 Hotfix Merger)
 
 B3HM is a tool written by c0dycode to merge in custom hotfixes for BL3 to pick up.
-As of August 28, 2022, it does not yet support Wonderlands, but once v1.0.2 is
+As of October 26, 2022, it does not yet support Wonderlands, but once v1.0.2 is
 released (likely in September), Wonderlands should be supported as well.
 
 It's available either as a standalone EXE, or as a DLL which you can inject in
@@ -38,18 +54,6 @@ HOWTO about running PluginLoader + B3HM](https://docs.google.com/document/d/1gdJ
 written by FromDarkHell, and a tutorial video by FromDarkHell:
 
 {% include youtubeplayer.html id=page.b3hmHowtoID %}
-
-# OHL (OpenHotfixLoader)
-
-OpenHotfixLoader is a tool written by apple1417 with much the same goal as B3HM,
-though it does its hotfix injection via a completely different method which
-doesn't have to mess with network streams.  Some handy links for OHL:
-
-- [Main Github Site](https://github.com/apple1417/OpenHotfixLoader)
-- [Video Install Guide](https://youtu.be/gHX3dtZIojY)
-- [Releases](https://github.com/apple1417/OpenHotfixLoader/releases)
-
-OpenHotfixLoader supports both BL3 and Wonderlands.
 
 # Finding Mods
 
