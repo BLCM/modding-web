@@ -11,7 +11,7 @@ Fortunately, there's a pretty wide array of existing mods for you to look
 at now, which should help get you going.
 
 For the modder who's already familiar with modding BL2/TPS, there *are* many
-similarities between the two.  BLCMM abstracts a lot of the details when
+similarities between the two.  OpenBLCMM abstracts a lot of the details when
 writing mods, but in the end you can think of BL3 hotfixes as just a collection
 of weird-looking `set` statements (though you'll never actually see the word
 `set` in the hotfixes).  But past experience in dealing with BL2/TPS arrays,
@@ -23,7 +23,7 @@ the main [BLCMods Wiki](https://github.com/BLCM/BLCMods/wiki/Borderlands-3-Moddi
 Here's some of the main pages you'll want to look into:
 
 - [Accessing BL3 Data](https://github.com/BLCM/BLCMods/wiki/Accessing-Borderlands-3-Data) -
-  Since we don't have something like BLCMM for BL3 modding, one of the bigger
+  Since we don't have something like OpenBLCMM for BL3 modding, one of the bigger
   challenges is having game data to work with.  This page details all of our
   currently-known ways of pulling information from the game, which will be
   a great help in figuring out what to change in the game.

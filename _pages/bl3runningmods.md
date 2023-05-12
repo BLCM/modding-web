@@ -6,7 +6,7 @@ ohlHowtoID: gHX3dtZIojY
 # Running Borderlands 3 Mods
 
 Modding in Borderlands 3 is a bit different from how you might be used to dealing
-with mods in BL2/TPS.  You will *not* be using BLCMM to manage your mod list, and
+with mods in BL2/TPS.  You will *not* be using OpenBLCMM to manage your mod list, and
 you won't be using a console to run any `exec` commands.
 
 Instead, BL3 modding requires that a program modifies the hotfixes that are being

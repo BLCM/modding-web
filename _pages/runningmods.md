@@ -46,51 +46,45 @@ text-based mods, in addition to PythonSDK mods.  See the [Python SDK](/sdk-mods/
 page for some more information on running PythonSDK mods, but the rest of this
 page will deal with managing the text-based sort.
 
-# Managing Text-Based Mods: Starting BLCMM
+# Managing Text-Based Mods: Starting OpenBLCMM
 
-For "traditional" text-based mods, the main management tool is the Borderlands
-Community Mod Manager, or BLCMM.  [Click here to download and install
-BLCMM](https://www.nexusmods.com/borderlands2/mods/61) *(Most Recent Version: v1.2.0, on May 22, 2020)*
+For "traditional" text-based mods, the main management tool is OpenBLCMM
+(an opensource fork of the original Borderlands Community Mod Manager).
+[Click here to download and install OpenBLCMM.](https://github.com/BLCM/OpenBLCMM/releases/)
 
-BLCMM will auto-update to the latest version, if needed, from its splash
-screen.
+Windows users are encouraged to use the Installer, which will provide you
+with a handy icon in your start menu.  Users on other platforms should
+[install Java](https://adoptium.net/temurin/), download the appropriate archive,
+unpack it, and then double-click the launcher script to run.
 
-**NOTE:** BLCMM includes some methods of trying to hex-edit the game which
-*no longer work* in a wide variety of situations.  When you start up BLCMM for
-the first time, it will bring up a dialog which attempts to set up the game
-for modding, but *PythonSDK has already done this for you*.  This dialog
-should be **ignored** -- even though it may throw an error, or tell you that
-it can't find the game, just click through that dialog and put it out of your
-mind.  You won't need to see it again.
-
-# Managing Text-Based Mods: Using BLCMM
+# Managing Text-Based Mods: Using OpenBLCMM
 
 Because of how BL2/TPS modding works, all of your mods that you use have to
 be combined into a *single* file to run from the console.  Some folks start
 with a bigger modpack like UCP, and then add more mods to that
 file.  You can get some information about those modpacks on the
 [Major Mod Packs](/mod-packs) page.  If you're using one of those modpacks,
-save it in your game's `Binaries` directory.  When you open BLCMM, it should
+save it in your game's `Binaries` directory.  When you open OpenBLCMM, it should
 find them automatically, though if they're named something different you
 may have to `File -> Open` to get to it.
 
 If you don't want to use a bigger mod pack, that's fine - you can choose
-`File -> New file` in BLCMM to create a new file.  Just save the file in the
+`File -> New file` in OpenBLCMM to create a new file.  Just save the file in the
 game's `Binaries` directory (with a name like `patch.txt` if you want to
 stay consistent with the usual names) and use that as the base.
 
-From this point forward, when you open BLCMM, it will open your main patch
+From this point forward, when you open OpenBLCMM, it will open your main patch
 file, and you can use `File -> Import mod file(s)` to import new mods.  They'll
 be stored in a `mods` folder, and you can toggle them on/off with the checkbox
 next to their names.  Use `File -> Save` (or `Ctrl-S`) to save the patch file
 after each change!  See [Finding Mods](/finding-mods/) for some tips on finding
 mods to use.
 
-Note that if BLCMM was able to detect your Borderlands installation directory,
+Note that if OpenBLCMM was able to detect your Borderlands installation directory,
 its Open/Save dialogs will have a button on the side to go directly to your
 `Binaries` directory, so you shouldn't have to find it yourself:
 
-[![BLCMM Binaries Buttons](/img/blcmm-binaries-buttons.png)](/img/blcmm-binaries-buttons.png)
+[![OpenBLCMM Binaries Buttons](/img/blcmm-binaries-buttons.png)](/img/blcmm-binaries-buttons.png)
 
 # Actually Running Your Patch File
 
@@ -147,8 +141,8 @@ If you've run a mod, but decided you don't actually want to play with it. To
 
 If you've merged multiple mods into a single file using BLCM, and you only want
 to remove one of them, you can simply disable that category. To properly remove
-it from the file, enable structural edits in BLCMM's settings, then delete
-should be an option whenever you right click a category.
+it from the file, you can delete it right inside OpenBLCMM itself, by right-clicking
+on the mod in question and choosing "delete".
 
 # Other Links
 
