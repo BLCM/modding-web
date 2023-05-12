@@ -23,9 +23,9 @@ Some notable changes:
    features various speedups and some streamlining.
 
 Downloads:
-OpenBLCMM: https://github.com/BLCM/OpenBLCMM/releases/
-OE Data Packs: https://github.com/BLCM/OpenBLCMM-Data/releases/
-Full Changelog: https://github.com/BLCM/OpenBLCMM/blob/main/src/CHANGELOG.md
+- OpenBLCMM: <https://github.com/BLCM/OpenBLCMM/releases/>
+- OE Data Packs: <https://github.com/BLCM/OpenBLCMM-Data/releases/>
+- Full Changelog: <https://github.com/BLCM/OpenBLCMM/blob/main/src/CHANGELOG.md>
 
 If you run into problems, feel free to ask questions in the [community mod
 support Discord](/community/).  Bug reports and feature requests can be
