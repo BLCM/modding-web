@@ -23,7 +23,7 @@ including pictures and a video.  You can also check out a dedicated
 
 The quick steps can be found here, though:
 
-1. [Download the latest release here](https://github.com/bl-sdk/PythonSDK/releases).
+1. [Download the latest release here](https://github.com/bl-sdk/bl2-mod-manager/releases/).
    Make sure that you download `PythonSDK.zip`, *not* either source code link.
    The correct file should only contain a few dlls, a zip file, and a "Mods" folder.
 2. Open up the game's folder - in Steam you can right click the game, properties ->
