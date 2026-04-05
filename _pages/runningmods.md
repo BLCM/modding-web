@@ -52,6 +52,13 @@ For "traditional" text-based mods, the main management tool is OpenBLCMM
 (an opensource fork of the original Borderlands Community Mod Manager).
 [Click here to download and install OpenBLCMM.](https://github.com/BLCM/OpenBLCMM/releases/)
 
+**WARNING:** OpenBLCMM is totally unaffiliated with the
+presumably-AI-generated site at `blcmm.com`.  That site does technically have a
+disclaimer at the bottom saying that it's not an official site, but: if you
+arrived at this project via links from blcmm.com, make sure you never visit it
+in the future.  There is no guarantee that that site won't turn hostile in the
+future, and we are not in communication with whoever put it up.
+
 Windows users are encouraged to use the Installer, which will provide you
 with a handy icon in your start menu.  Users on other platforms should
 [install Java](https://adoptium.net/temurin/), download the appropriate archive,
